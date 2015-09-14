@@ -1,0 +1,48 @@
+ncverilog: 10.20-s123: (c) Copyright 1995-2012 Cadence Design Systems, Inc.
+TOOL:	ncverilog	10.20-s123: Started on Dec 17, 2012 at 16:43:18 CST
+ncverilog
+	fsm_test.v
+	fsm_bspd.v
+	+access+r
+file: fsm_test.v
+	module worklib.test_fsm:v
+		errors: 0, warnings: 0
+file: fsm_bspd.v
+	module worklib.fsm_bspd:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.fsm_bspd:v <0x2b02daa0>
+			streams:   3, words:  1046
+		worklib.test_fsm:v <0x6152715b>
+			streams:  15, words:  6483
+	Loading native compiled code:     .................... Done
+	Building instance specific data structures.
+	Design hierarchy summary:
+		                  Instances  Unique
+		Modules:                  2       2
+		Registers:               13      13
+		Scalar wires:             4       -
+		Always blocks:           10      10
+		Initial blocks:           3       3
+		Pseudo assignments:       1       1
+		Simulation timescale:  10ps
+	Writing initial simulation snapshot: worklib.test_fsm:v
+Loading snapshot worklib.test_fsm:v .................... Done
+*Novas* Loading libsscore_ius102.so
+ncsim> source /usr/cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
+ncsim> run
+Novas FSDB Dumper for IUS, Release 2012.01, Linux, 01/13/2012
+Copyright (C) 1996 - 2012 by SpringSoft, Inc.
+*Novas* : Create FSDB file 'fsm.fsdb'
+*Novas* : Begin traversing the scopes, layer (0).
+*Novas* : End of traversing.
+************************************************************
+                4013 Finish testing with no error
+************************************************************
+Simulation complete via $finish(1) at time 4013 NS + 0
+./fsm_test.v:50 	$finish;
+ncsim> exit
+TOOL:	ncverilog	10.20-s123: Exiting on Dec 17, 2012 at 16:43:20 CST  (total: 00:00:02)

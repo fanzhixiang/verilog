@@ -1,0 +1,116 @@
+$date
+    Nov  9, 2010  11:13:29
+$end
+$version
+    TOOL:	ncsim	08.20-s024
+$end
+$timescale
+    1 ns
+$end
+
+$scope module mux_test $end
+$var reg       1 !    a  $end
+$var reg       1 "    b  $end
+$var reg       1 #    sel  $end
+$var wire      1 $    out  $end
+
+$scope module mux $end
+$var wire      1 $    out  $end
+$var wire      1 %    a  $end
+$var wire      1 &    b  $end
+$var wire      1 '    sel  $end
+$var wire      1 (    sel_  $end
+$var wire      1 )    a1  $end
+$var wire      1 *    b1  $end
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+$dumpvars
+x!
+x"
+x#
+x$
+x%
+x&
+x'
+x(
+x)
+x*
+$end
+#10
+0!
+0"
+0#
+0'
+0&
+0%
+1(
+#11
+0)
+0*
+#13
+0$
+#20
+1!
+1#
+1'
+1%
+0(
+#30
+1"
+0#
+0'
+1&
+1(
+#31
+1)
+#33
+1$
+#40
+0!
+1#
+1'
+0%
+0(
+#41
+0)
+1*
+#50
+0#
+0'
+1(
+#51
+0*
+#53
+0$
+#60
+1!
+0"
+0&
+1%
+#61
+1)
+#63
+1$
+#70
+0!
+1#
+1'
+0%
+0(
+#71
+0)
+#73
+0$
+#80
+1!
+1"
+1&
+1%
+#81
+1*
+#83
+1$
+#100

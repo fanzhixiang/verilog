@@ -1,0 +1,149 @@
+ncsim 12.20-s012
+Linux 2.6.18-194.32.1.el5.centos.plus #1 SMP Wed Jan 5 18:13:47 EST 2011 x86_64
+CPU cores: 16
+Limit information:
+======================================
+cputime			unlimited
+filesize		unlimited
+datasize		unlimited
+stacksize		10240 kbytes
+coredumpsize	0 kbytes
+memoryuse		unlimited
+vmemoryuse		unlimited
+descriptors		1024
+memorylocked	32 kbytes
+maxproc			593919
+======================================
+Runtime environment variables:
+DISPLAY=:12610.0
+SUPPORTED=en_US.UTF-8:en_US:en
+HOSTNAME=dsd05.cic.org.tw
+SHELL=/bin/tcsh
+HOST=dsd05.cic.org.tw
+HISTSIZE=1000
+KDE_NO_IPV6=1
+SSH_CLIENT=127.0.0.1 41037 22
+QTDIR=/usr/lib64/qt-3.3
+QTINC=/usr/lib64/qt-3.3/include
+USER=hlchen
+GROUP=DSD
+LS_COLORS=no=00:fi=00:di=00;34:ln=00;36:pi=40;33:so=00;35:bd=40;33;01:cd=40;33;01:or=01;05;37;41:mi=01;05;37;41:ex=00;32:*.cmd=00;32:*.exe=00;32:*.com=00;32:*.btm=00;32:*.bat=00;32:*.sh=00;32:*.csh=00;32:*.tar=00;31:*.tgz=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.zip=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.bz=00;31:*.tz=00;31:*.rpm=00;31:*.cpio=00;31:*.jpg=00;35:*.gif=00;35:*.bmp=00;35:*.xbm=00;35:*.xpm=00;35:*.png=00;35:*.tif=00;35:
+HOSTTYPE=x86_64-linux
+KDEDIR=/usr
+PAGER=more
+NXSESSIONID=dsd05.cic.org.tw-12610-3406490657A72A6CE4D87920617844F7
+PATH=/usr/cad/spring_soft/verdi/cur/bin:/usr/cad/spring_soft/verdi/cur/nLint/bin:/usr/cad/cadence/INCISIV/cur/tools/bin:/usr/cad/cadence/INCISIV/cur/tools/vtools/vfault/bin:/usr/cad/cadence/INCISIV/cur/tools/dfII/bin:/usr/cad/spring_soft/verdi/cur/bin:/usr/cad/spring_soft/verdi/cur/nLint/bin:/usr/cad/cadence/INCISIV/cur/tools/bin:/usr/cad/cadence/INCISIV/cur/tools/vtools/vfault/bin:/usr/cad/cadence/INCISIV/cur/tools/dfII/bin:/usr/lib64/qt-3.3/bin:/usr/kerberos/bin:/usr/local/bin:/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/sbin:/usr/X11R6/bin:/user/DSD/hlchen/bin
+MAIL=/var/spool/mail/hlchen
+SHADOW_XAUTHORITY=/user/DSD/hlchen/.nx/C-dsd05.cic.org.tw-12610-3406490657A72A6CE4D87920617844F7/authority
+INPUTRC=/etc/inputrc
+PWD=/user/DSD/hlchen/CICTRAINING/VERILOG/vloglab/.solution/Lab3b
+KDE_IS_PRELINKED=1
+LANG=en_US.UTF-8
+LM_LICENSE_FILE=26585@lscic:5280@lscic:
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+SLAVE_PID=16967
+HOME=/user/DSD/hlchen
+SHLVL=4
+MANPAGER=less -iRs
+OSTYPE=linux
+VENDOR=unknown
+LOGNAME=hlchen
+MACHTYPE=x86_64
+CVS_RSH=ssh
+QTLIB=/usr/lib64/qt-3.3/lib
+SSH_CONNECTION=127.0.0.1 41037 127.0.0.1 22
+LESSOPEN=|/usr/bin/lesspipe.sh %s
+SHLIB_PATH=/usr/cad/spring_soft/verdi/cur/share/PLI/IUS/LINUX/:/usr/cad/spring_soft/verdi/cur/share/PLI/IUS/LINUX
+G_BROKEN_FILENAMES=1
+_=/usr/bin/ssh-agent
+SSH_AUTH_SOCK=/tmp/ssh-npiGl17572/agent.17572
+SSH_AGENT_PID=17574
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-3zqlgx4l7k,guid=d6b8dfc7c475e0ed30c3b500533a263a
+GTK_RC_FILES=/etc/gtk/gtkrc:/user/DSD/hlchen/.gtkrc-1.2-gnome2
+SESSION_MANAGER=local/dsd05.cic.org.tw:/tmp/.ICE-unix/17572
+GNOME_KEYRING_SOCKET=/tmp/keyring-YdSdUK/socket
+GNOME_DESKTOP_SESSION_ID=Default
+DESKTOP_STARTUP_ID=
+TERM=xterm
+COLORTERM=gnome-terminal
+WINDOWID=35651664
+LD_LIBRARY_PATH=/usr/cad/spring_soft/verdi/cur/share/PLI/IUS/LINUX/:/usr/cad/cadence/INCISIV/cur/tools/lib:/usr/cad/cadence/INCISIV/cur/tools/vtools/vfault/lib::/lib:/lib64:/usr/lib:/usr/lib64:/usr/loacl/lib:/usr/local/lib64
+/user/DSD/hlchen/CICTRAINING/VERILOG/vloglab/.solution/Lab3b/INCA_libs/irun.lnx86.12.20.nc/svpp.ts
+CDS_ARCH=lnx86
+NCRUNMODE=ncverilog:./INCA_libs/irun.lnx86.12.20.nc
+IRUNBATCH=FALSE
+IMPERAS_PORT_FILE=.vsp_ovp_gdb_port
+TCL_LIBRARY=/usr/cad/cadence/INCISIV/cur/tools/inca/files/tcl/library
+Runtime command line arguments:
+argv[0]=ncverilog
+argv[1]=FIR_test.v
+argv[2]=FIR.v
+argv[3]=+access+r
+82 profile - 100
+          CPU/Mem usage: 0.000 sys,  0.010 user,  44.76M sys,  0.00M vm
+83 VC callback profile - scalar:0 vector:0
+84 Wed Apr  2 10:48:17 2014
+85 pliAppInit
+86 pliAppMiscSet: New Sim Round
+87 LIBSSCORE=found /usr/cad/spring_soft/verdi/cur/share/PLI/IUS/LINUX/libsscore_ius111.so through $LD_LIBRARY_PATH setting.
+88 argv[0]: FIR.fsdb
+89 Catch signal 11. Stack trace follows:
+#0  0xffffe410 in __kernel_vsyscall ()
+#1  0x00275b23 in __read_nocancel () from /lib/libc.so.6
+#2  0x00215e48 in _IO_file_read_internal () from /lib/libc.so.6
+#3  0x002171a0 in _IO_new_file_underflow () from /lib/libc.so.6
+#4  0x0021789b in _IO_default_uflow_internal () from /lib/libc.so.6
+#5  0x00218c0d in __uflow () from /lib/libc.so.6
+#6  0x0020c596 in _IO_getline_info_internal () from /lib/libc.so.6
+#7  0x0020c4e1 in _IO_getline_internal () from /lib/libc.so.6
+#8  0x0020b45a in fgets () from /lib/libc.so.6
+#9  0xf72d44d5 in ndpGetCallStack () from /usr/cad/spring_soft/verdi/cur/share/PLI/IUS/LINUX/libsscore_ius111.so
+#10 0xf72fa66c in pliAppDbg_SigHandler () from /usr/cad/spring_soft/verdi/cur/share/PLI/IUS/LINUX/libsscore_ius111.so
+#11 0xf72d4058 in catchSignalCB () from /usr/cad/spring_soft/verdi/cur/share/PLI/IUS/LINUX/libsscore_ius111.so
+#12 <signal handler called>
+#13 0x0aa3258a in ?? ()
+#14 0x0aa32580 in ?? ()
+#15 0x00000000 in ?? ()
+90 Novas FSDB Dumper for IUS, Release 2012.04, Linux, 04/10/2012
+91 Copyright (C) 1996 - 2012 by SpringSoft, Inc.
+92 ***********************************************************************
+93 *  WARNING -                                                          *
+94 *  The simulator version is newer than the FSDB dumper version which  *
+95 *  may cause abnormal behavior. Please contact SpringSoft support at  *
+96 *  support@springsoft.com for assistance.                             *
+97 ***********************************************************************
+98 sps_call_fsdbDumpfile at 0 : /user/DSD/hlchen/CICTRAINING/VERILOG/vloglab/.solution/Lab3b/FIR_test.v(96)
+99 argv[0]: FIR.fsdb
+100 *Novas* : Create FSDB file 'FIR.fsdb'
+101 sps_call_fsdbDumpvars at 0 : /user/DSD/hlchen/CICTRAINING/VERILOG/vloglab/.solution/Lab3b/FIR_test.v(97)
+102 *Novas* : Begin traversing the scopes, layer (0).
+103 *Novas* : End of traversing.
+104 fsdbDumpvars traverse var: profile - 
+          CPU/Mem usage: 0.010 sys,  0.020 user,  50.35M sys,  0.00M vm
+                   incr: 0.000 sys,  0.000 user,  2.49M sys,  0.00M vm
+                   accu: 0.000 sys,  0.000 user,  2.49M sys,  0.00M vm
+              accu incr: 0.000 sys,  0.000 user,  2.49M sys,  0.00M vm
+
+          Count usage: 11 var,  10 idcode,  10 callback
+                 incr: 11 var,  10 idcode,  10 callback
+                 accu: 11 var,  10 idcode,  10 callback
+            accu incr: 11 var,  10 idcode,  10 callback
+105 VC callback profile - scalar:0 vector:0
+106 Wed Apr  2 10:48:17 2014
+107 fsdbDumpvars: profile - 
+          CPU/Mem usage: 0.010 sys,  0.020 user,  51.40M sys,  0.00M vm
+                   incr: 0.000 sys,  0.000 user,  1.05M sys,  0.00M vm
+                   accu: 0.000 sys,  0.000 user,  3.55M sys,  0.00M vm
+              accu incr: 0.000 sys,  0.000 user,  1.05M sys,  0.00M vm
+
+          Count usage: 11 var,  10 idcode,  10 callback
+                 incr: 0 var,  0 idcode,  0 callback
+                 accu: 11 var,  10 idcode,  10 callback
+            accu incr: 0 var,  0 idcode,  0 callback
+108 VC callback profile - scalar:5 vector:5
+109 Wed Apr  2 10:48:17 2014
+110 End of simulation at 432500
+111 VC callback profile - scalar:360 vector:569
+112 Wed Apr  2 10:48:17 2014
+113 SimExit
+114 Sim process exit

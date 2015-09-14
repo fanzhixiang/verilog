@@ -1,0 +1,52 @@
+ncverilog: 12.20-s012: (c) Copyright 1995-2013 Cadence Design Systems, Inc.
+TOOL:	ncverilog	12.20-s012: Started on Apr 02, 2014 at 10:48:17 CST
+ncverilog
+	FIR_test.v
+	FIR.v
+	+access+r
+Recompiling... reason: file './FIR_test.v' is newer than expected.
+	expected: Wed Apr  2 10:54:10 2014
+	actual:   Wed Apr  2 10:55:30 2014
+file: FIR_test.v
+	module worklib.FIR_test:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.FIR_test:v <0x33156d53>
+			streams:   7, words: 23933
+	Loading native compiled code:     .................... Done
+	Building instance specific data structures.
+	Design hierarchy summary:
+		                  Instances  Unique
+		Modules:                  2       2
+		Registers:                7       7
+		Scalar wires:             2       -
+		Vectored wires:           2       -
+		Always blocks:            2       2
+		Initial blocks:           5       5
+		Cont. assignments:        1       1
+		Pseudo assignments:       1       1
+		Simulation timescale:  10fs
+	Writing initial simulation snapshot: worklib.FIR_test:v
+Loading snapshot worklib.FIR_test:v .................... Done
+*Novas* Loading libsscore_ius111.so
+ncsim> source /usr/cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
+ncsim> run
+Novas FSDB Dumper for IUS, Release 2012.04, Linux, 04/10/2012
+Copyright (C) 1996 - 2012 by SpringSoft, Inc.
+***********************************************************************
+*  WARNING -                                                          *
+*  The simulator version is newer than the FSDB dumper version which  *
+*  may cause abnormal behavior. Please contact SpringSoft support at  *
+*  support@springsoft.com for assistance.                             *
+***********************************************************************
+*Novas* : Create FSDB file 'FIR.fsdb'
+*Novas* : Begin traversing the scopes, layer (0).
+*Novas* : End of traversing.
+the real time =                 2500, the time =                 3000
+Simulation complete via $finish(1) at time 4325 PS + 0
+./FIR_test.v:91 $finish;
+ncsim> exit
+TOOL:	ncverilog	12.20-s012: Exiting on Apr 02, 2014 at 10:48:17 CST  (total: 00:00:00)

@@ -1,0 +1,182 @@
+ncverilog: 12.20-s012: (c) Copyright 1995-2013 Cadence Design Systems, Inc.
+TOOL:	ncverilog	12.20-s012: Started on Apr 02, 2014 at 10:19:51 CST
+ncverilog
+	alu_test.v
+	alu.v
+Recompiling... reason: file './alu_test.v' is newer than expected.
+	expected: Wed Apr  2 10:23:27 2014
+	actual:   Wed Apr  2 10:27:02 2014
+file: alu_test.v
+	module worklib.alu_test:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.alu_test:v <0x524a2500>
+			streams:  12, words: 23586
+	Loading native compiled code:     .................... Done
+	Building instance specific data structures.
+	Design hierarchy summary:
+		                 Instances  Unique
+		Modules:                 2       2
+		Registers:              10      10
+		Scalar wires:            3       -
+		Vectored wires:          8       -
+		Always blocks:           2       2
+		Initial blocks:          2       2
+		Cont. assignments:       4       5
+		Pseudo assignments:      4       4
+		Simulation timescale:  1ns
+	Writing initial simulation snapshot: worklib.alu_test:v
+Loading snapshot worklib.alu_test:v .................... Done
+*Novas* Loading libsscore_ius111.so
+ncsim> source /usr/cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
+ncsim> run
+Novas FSDB Dumper for IUS, Release 2012.04, Linux, 04/10/2012
+Copyright (C) 1996 - 2012 by SpringSoft, Inc.
+***********************************************************************
+*  WARNING -                                                          *
+*  The simulator version is newer than the FSDB dumper version which  *
+*  may cause abnormal behavior. Please contact SpringSoft support at  *
+*  support@springsoft.com for assistance.                             *
+***********************************************************************
+*Novas* : Create FSDB file 'alu.fsdb'
+*Novas* : Begin traversing the scopes, layer (0).
+*Novas* WARNING: [NoReadAccess][FilterOut]Name:alu_test.i(25)
+*Novas* WARNING: [NoReadAccess][FilterOut]Name:alu_test.err_cnt(25)
+*Novas* WARNING: [NoReadAccess][FilterOut]Name:alu_test.k(25)
+*Novas* WARNING: [NoReadAccess][FilterOut]Name:alu_test.clk(48)
+*Novas* WARNING: [NoReadAccess][FilterOut]Name:alu_test.reset(48)
+*Novas* WARNING: [NoReadAccess][FilterOut]Name:alu_test.twocomp_accum(36)
+*Novas* WARNING: [NoReadAccess][FilterOut]Name:alu_test.cal_accum_data(36)
+*Novas* WARNING: [NoReadAccess][FilterOut]Name:alu_test.cnd_accum(36)
+*Novas* WARNING: [NoReadAccess][FilterOut]Name:alu_test.abs_accum(36)
+*Novas* WARNING: [NoReadAccess][FilterOut]Name:alu_test.alu1.clk(36)
+*Novas* WARNING: [NoReadAccess][FilterOut]Name:alu_test.alu1.reset(36)
+*Novas* WARNING: [NoReadAccess][FilterOut]Name:alu_test.alu1.accum(36)
+*Novas* WARNING: [NoReadAccess][FilterOut]Name:alu_test.alu1.data(36)
+*Novas* WARNING: [NoReadAccess][FilterOut]Name:alu_test.alu1.opcode(36)
+*Novas* : End of traversing.
+			            INPUTS                   EXPECTD OUTPUTS       REAL    OUTPUT  
+
+			  OPCODE   DATA IN    ACCUM IN  |  ALU OUT   ZERO BIT |  ALU OUT   ZERO BIT
+			  ------   --------   --------  |  --------  -------- |  --------  --------
+initial test, reset enable, alu_out = 00000000
+PASS ACCUM OPERATION:      000     11111010   10000111  |  10000111      0    |  10000111      0
+ADD OPERATION       :      001     11111101   01100110  |  01100011      0    |  01100011      0
+SUB OPERATION       :      010     00000010   10010001  |  10001111      0    |  10001111      0
+AND OPERATION       :      011     11111010   00010101  |  00010000      0    |  00010000      0
+XOR OPERATION       :      100     00000010   00010001  |  00010011      0    |  00010011      0
+ABS OPERATION       :      101     00000011   01000001  |  01000001      0    |  01000001      0
+CAL OPERATION       :      110     00000000   10010000  |  11100010      0    |  11100010      0
+CND OPERATION       :      111     11111100   11001100  |  00000100      0    |  00000100      0
+UNKNOWN OPERATION   :      00x     11111100   11001100  |  00000000      0    |  00000000      0
+ADD OPERATION       :      001     11111100   00000000  |  11111100      1    |  11111100      1
+PASS ACCUM OPERATION:      000     11111101   10101101  |  10101101      0    |  10101101      0
+ADD OPERATION       :      001     11111011   01111100  |  01110111      0    |  01110111      0
+SUB OPERATION       :      010     00000001   10010001  |  10010000      0    |  10010000      0
+AND OPERATION       :      011     11111011   11010110  |  11010010      0    |  11010010      0
+XOR OPERATION       :      100     11111010   11001011  |  00110001      0    |  00110001      0
+ABS OPERATION       :      101     11111101   11000011  |  00111101      0    |  00111101      0
+CAL OPERATION       :      110     11111110   01100101  |  00000101      0    |  00000101      0
+CND OPERATION       :      111     00000001   00001110  |  11111110      0    |  11111110      0
+UNKNOWN OPERATION   :      00x     00000001   00001110  |  00000000      0    |  00000000      0
+ADD OPERATION       :      001     00000001   00000000  |  00000001      1    |  00000001      1
+PASS ACCUM OPERATION:      000     00000010   00100101  |  00100101      0    |  00100101      0
+ADD OPERATION       :      001     11111010   10100101  |  10011111      0    |  10011111      0
+SUB OPERATION       :      010     11111011   00010101  |  00011010      0    |  00011010      0
+AND OPERATION       :      011     11111100   01010111  |  01010100      0    |  01010100      0
+XOR OPERATION       :      100     11111110   11011001  |  00100111      0    |  00100111      0
+ABS OPERATION       :      101     00000000   10110000  |  01010000      0    |  01010000      0
+CAL OPERATION       :      110     11111100   11010101  |  01000011      0    |  01000011      0
+CND OPERATION       :      111     00000011   00001111  |  11111100      0    |  11111100      0
+UNKNOWN OPERATION   :      00x     00000011   00001111  |  00000000      0    |  00000000      0
+ADD OPERATION       :      001     00000011   00000000  |  00000011      1    |  00000011      1
+PASS ACCUM OPERATION:      000     00000000   00111110  |  00111110      0    |  00111110      0
+ADD OPERATION       :      001     00000001   10010000  |  10010001      0    |  10010001      0
+SUB OPERATION       :      010     11111010   11011011  |  11100001      0    |  11100001      0
+AND OPERATION       :      011     11111110   10001100  |  10001100      0    |  10001100      0
+XOR OPERATION       :      100     00000010   10111100  |  10111110      0    |  10111110      0
+ABS OPERATION       :      101     00000001   10110010  |  01001110      0    |  01001110      0
+CAL OPERATION       :      110     00000100   00101111  |  11110000      0    |  11110000      0
+CND OPERATION       :      111     11111101   01110101  |  00000010      0    |  00000010      0
+UNKNOWN OPERATION   :      00x     11111101   01110101  |  00000000      0    |  00000000      0
+ADD OPERATION       :      001     11111101   00000000  |  11111101      1    |  11111101      1
+PASS ACCUM OPERATION:      000     00000100   01010101  |  01010101      0    |  01010101      0
+ADD OPERATION       :      001     00000010   00111011  |  00111101      0    |  00111101      0
+SUB OPERATION       :      010     00000110   00010110  |  00010000      0    |  00010000      0
+AND OPERATION       :      011     00000110   11011110  |  00000110      0    |  00000110      0
+XOR OPERATION       :      100     00000110   01001111  |  01001001      0    |  01001001      0
+ABS OPERATION       :      101     00000011   10010110  |  01101010      0    |  01101010      0
+CAL OPERATION       :      110     11111011   10111110  |  11001101      0    |  11001101      0
+CND OPERATION       :      111     11111110   01011110  |  00000001      0    |  00000001      0
+UNKNOWN OPERATION   :      00x     11111110   01011110  |  00000000      0    |  00000000      0
+ADD OPERATION       :      001     11111110   00000000  |  11111110      1    |  11111110      1
+PASS ACCUM OPERATION:      000     00000001   10001010  |  10001010      0    |  10001010      0
+ADD OPERATION       :      001     11111110   11010100  |  11010010      0    |  11010010      0
+SUB OPERATION       :      010     11111111   01010111  |  01011000      0    |  01011000      0
+AND OPERATION       :      011     00000011   00010001  |  00000001      0    |  00000001      0
+XOR OPERATION       :      100     00000001   11001100  |  11001101      0    |  11001101      0
+ABS OPERATION       :      101     00000100   01000000  |  01000000      0    |  01000000      0
+CAL OPERATION       :      110     11111010   10000010  |  10011010      0    |  10011010      0
+CND OPERATION       :      111     00000001   00111101  |  11111110      0    |  11111110      0
+UNKNOWN OPERATION   :      00x     00000001   00111101  |  00000000      0    |  00000000      0
+ADD OPERATION       :      001     00000001   00000000  |  00000001      1    |  00000001      1
+PASS ACCUM OPERATION:      000     11111101   11011000  |  11011000      0    |  11011000      0
+ADD OPERATION       :      001     11111111   01111101  |  01111100      0    |  01111100      0
+SUB OPERATION       :      010     00000001   01001111  |  01001110      0    |  01001110      0
+AND OPERATION       :      011     00000011   00101100  |  00000000      0    |  00000000      0
+XOR OPERATION       :      100     11111100   10001101  |  01110001      0    |  01110001      0
+ABS OPERATION       :      101     11111111   10011110  |  01100010      0    |  01100010      0
+CAL OPERATION       :      110     00000000   00101101  |  11100110      0    |  11100110      0
+CND OPERATION       :      111     11111010   10100111  |  00000110      0    |  00000110      0
+UNKNOWN OPERATION   :      00x     11111010   10100111  |  00000000      0    |  00000000      0
+ADD OPERATION       :      001     11111010   00000000  |  11111010      1    |  11111010      1
+PASS ACCUM OPERATION:      000     11111100   10110111  |  10110111      0    |  10110111      0
+ADD OPERATION       :      001     00000101   01000101  |  01001010      0    |  01001010      0
+SUB OPERATION       :      010     11111011   11010010  |  11010111      0    |  11010111      0
+AND OPERATION       :      011     00000110   01011111  |  00000110      0    |  00000110      0
+XOR OPERATION       :      100     11111110   11110000  |  00001110      0    |  00001110      0
+ABS OPERATION       :      101     11111110   01101010  |  01101010      0    |  01101010      0
+CAL OPERATION       :      110     11111011   11100010  |  10000110      0    |  10000110      0
+CND OPERATION       :      111     00000010   01001001  |  11111101      0    |  11111101      0
+UNKNOWN OPERATION   :      00x     00000010   01001001  |  00000000      0    |  00000000      0
+ADD OPERATION       :      001     00000010   00000000  |  00000010      1    |  00000010      1
+PASS ACCUM OPERATION:      000     00000110   00101100  |  00101100      0    |  00101100      0
+ADD OPERATION       :      001     00000000   00010110  |  00010110      0    |  00010110      0
+SUB OPERATION       :      010     00000000   10100001  |  10100001      0    |  10100001      0
+AND OPERATION       :      011     11111100   11001001  |  11001000      0    |  11001000      0
+XOR OPERATION       :      100     00000011   01010100  |  01010111      0    |  01010111      0
+ABS OPERATION       :      101     11111101   00001101  |  00001101      0    |  00001101      0
+CAL OPERATION       :      110     11111101   00111101  |  00111000      0    |  00111000      0
+CND OPERATION       :      111     11111100   10111110  |  00000100      0    |  00000100      0
+UNKNOWN OPERATION   :      00x     11111100   10111110  |  00000000      0    |  00000000      0
+ADD OPERATION       :      001     11111100   00000000  |  11111100      1    |  11111100      1
+PASS ACCUM OPERATION:      000     00000001   10011001  |  10011001      0    |  10011001      0
+ADD OPERATION       :      001     11111100   01011011  |  01010111      0    |  01010111      0
+SUB OPERATION       :      010     00000000   01010100  |  01010100      0    |  01010100      0
+AND OPERATION       :      011     11111101   01110101  |  01110101      0    |  01110101      0
+XOR OPERATION       :      100     00000110   11001011  |  11001101      0    |  11001101      0
+ABS OPERATION       :      101     00000011   10011001  |  01100111      0    |  01100111      0
+CAL OPERATION       :      110     00000100   00000110  |  00011110      0    |  00011110      0
+CND OPERATION       :      111     00000110   01110000  |  11111001      0    |  11111001      0
+UNKNOWN OPERATION   :      00x     00000110   01110000  |  00000000      0    |  00000000      0
+ADD OPERATION       :      001     00000110   00000000  |  00000110      1    |  00000110      1
+PASS ACCUM OPERATION:      000     00000000   10001001  |  10001001      0    |  10001001      0
+ADD OPERATION       :      001     11111110   00110000  |  00101110      0    |  00101110      0
+SUB OPERATION       :      010     00000000   00110010  |  00110010      0    |  00110010      0
+AND OPERATION       :      011     00000000   00011101  |  00000000      0    |  00000000      0
+XOR OPERATION       :      100     00000110   00101101  |  00101011      0    |  00101011      0
+ABS OPERATION       :      101     00000101   10001001  |  01110111      0    |  01110111      0
+CAL OPERATION       :      110     11111010   00111111  |  01000010      0    |  01000010      0
+CND OPERATION       :      111     00000000   01110111  |  11111111      0    |  11111111      0
+UNKNOWN OPERATION   :      00x     00000000   01110111  |  00000000      0    |  00000000      0
+ADD OPERATION       :      001     00000000   00000000  |  00000000      1    |  00000000      1
+
+No errors were found!
+
+Simulation complete via $finish(1) at time 2255 NS + 0
+./alu_test.v:107       $finish;
+ncsim> exit
+TOOL:	ncverilog	12.20-s012: Exiting on Apr 02, 2014 at 10:19:52 CST  (total: 00:00:01)

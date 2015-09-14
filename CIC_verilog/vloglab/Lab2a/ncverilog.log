@@ -1,0 +1,50 @@
+ncverilog: 13.10-s005: (c) Copyright 1995-2013 Cadence Design Systems, Inc.
+TOOL:	ncverilog	13.10-s005: Started on Mar 16, 2015 at 16:30:19 CST
+ncverilog
+	fa_test.v
+	fa.v
+	+access+r
+file: fa_test.v
+	module worklib.fa_test:v
+		errors: 0, warnings: 0
+file: fa.v
+	module worklib.fa:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.fa_test:v <0x2fe9597e>
+			streams:   7, words: 24686
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                  Instances  Unique
+		Modules:                  2       2
+		Registers:                4       4
+		Scalar wires:             4       -
+		Always blocks:            1       1
+		Initial blocks:           3       3
+		Pseudo assignments:       3       3
+		Simulation timescale:  10ps
+	Writing initial simulation snapshot: worklib.fa_test:v
+Loading snapshot worklib.fa_test:v .................... Done
+*Novas* Loading libsscore_ius111.so
+ncsim> source /usr/cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
+ncsim> run
+Novas FSDB Dumper for IUS, Release 2012.04, Linux, 04/10/2012
+Copyright (C) 1996 - 2012 by SpringSoft, Inc.
+***********************************************************************
+*  WARNING -                                                          *
+*  The simulator version is newer than the FSDB dumper version which  *
+*  may cause abnormal behavior. Please contact SpringSoft support at  *
+*  support@springsoft.com for assistance.                             *
+***********************************************************************
+*Novas* : Create FSDB file 'fa.fsdb'
+*Novas* : Begin traversing the scopes, layer (0).
+*Novas* : End of traversing.
+                   6 a=0, b=0, ci=0, sum=z, cout=z,  ERROR!!!
+Simulation complete via $finish(1) at time 6 NS + 0
+./fa_test.v:27 			$display($time, ,"a=%b, b=%b, ci=%b, sum=%b, cout=%b,  ERROR!!!", a,b,ci,sum,cout);  $finish; end
+ncsim> exit
+TOOL:	ncverilog	13.10-s005: Exiting on Mar 16, 2015 at 16:30:21 CST  (total: 00:00:02)

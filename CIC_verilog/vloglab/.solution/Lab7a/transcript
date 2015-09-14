@@ -1,0 +1,35 @@
+# //  ModelSim SE 10.1c Jul 27 2012 Linux 2.6.18-164.el5
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading project lab7a
+vsim work._opt
+# vsim work._opt 
+# ** Warning: (vsim-1963) Explicit invocation on automatically named optimized design "_opt" will not cause it to be locked.
+# Loading work.fsm_bspd(fast__1)
+# Loading work.test_fsm(fast)
+# ** Warning: (vsim-PLI-3003) /user/DSD/hlchen/CICTRAINING/VERILOG/vloglab/.solution/Lab7a/fsm_test.v(120): [TOFD] - System task or function '$fsdbDumpfile' is not defined.
+#         Region: /test_fsm
+# ** Warning: (vsim-PLI-3003) /user/DSD/hlchen/CICTRAINING/VERILOG/vloglab/.solution/Lab7a/fsm_test.v(121): [TOFD] - System task or function '$fsdbDumpvars' is not defined.
+#         Region: /test_fsm
+run -all
+# ************************************************************
+#                 4013 Finish testing with no error
+# ************************************************************
+# ** Note: $finish    : /user/DSD/hlchen/CICTRAINING/VERILOG/vloglab/.solution/Lab7a/fsm_test.v(50)
+#    Time: 4013 ns  Iteration: 0  Instance: /test_fsm
+# 1
+# Break at /user/DSD/hlchen/CICTRAINING/VERILOG/vloglab/.solution/Lab7a/fsm_test.v line 50
+add wave -position insertpoint sim:/test_fsm/*
+# (vish-4014) No objects found matching '/test_fsm/*'.
+add wave -position insertpoint sim:/fsm_bspd/*
+run -all
+# Break key hit 
+# Simulation stop requested.
+# Load canceled
+quit

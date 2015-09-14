@@ -1,0 +1,48 @@
+m255
+K3
+13
+cModel Technology
+d/user/DSD/hlchen/CICTRAINING/VERILOG/vloglab/.solution/Lab8
+T_opt
+VdnEfY4eAohET8>CUL^[oe0
+04 14 4 work fsm_mealy_test fast 0
+=1-f4ce4685a108-50ced5f4-c5a11-168e
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OE;O;10.1c;51
+vfsm_mealy
+Iej8JX^BeM2FDGY354CfGB3
+V^J39fVZ]g>i]JK5f7lXnl3
+Z0 d/user/DSD/hlchen/CICTRAINING/VERILOG/vloglab/.solution/Lab7b
+w1355725481
+8/user/DSD/hlchen/CICTRAINING/VERILOG/vloglab/.solution/Lab7b/fsm_mealy.v
+F/user/DSD/hlchen/CICTRAINING/VERILOG/vloglab/.solution/Lab7b/fsm_mealy.v
+L0 1
+Z1 OE;L;10.1c;51
+r1
+31
+Z2 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!s100 =P9?=KVg7RM8G:liY<Hn23
+!s108 1355732453.038260
+!s107 /user/DSD/hlchen/CICTRAINING/VERILOG/vloglab/.solution/Lab7b/fsm_mealy.v|
+!s90 -reportprogress|300|-work|work|-vopt|/user/DSD/hlchen/CICTRAINING/VERILOG/vloglab/.solution/Lab7b/fsm_mealy.v|
+!i10b 1
+!s85 0
+vfsm_mealy_test
+IC6><0[z_T=M^WF4WA<>cS3
+VXQ[TP]z1JdM[NWFWN^^;T1
+Z3 d/user/DSD/hlchen/CICTRAINING/VERILOG/vloglab/.solution/Lab7b
+w1355725528
+8/user/DSD/hlchen/CICTRAINING/VERILOG/vloglab/.solution/Lab7b/fsm_mealy_test.v
+F/user/DSD/hlchen/CICTRAINING/VERILOG/vloglab/.solution/Lab7b/fsm_mealy_test.v
+L0 2
+R1
+r1
+31
+R2
+!i10b 1
+!s100 ;TS79iB<h=kob7ak8DfZF2
+!s85 0
+!s108 1355732453.076891
+!s107 /user/DSD/hlchen/CICTRAINING/VERILOG/vloglab/.solution/Lab7b/fsm_mealy_test.v|
+!s90 -reportprogress|300|-work|work|-vopt|/user/DSD/hlchen/CICTRAINING/VERILOG/vloglab/.solution/Lab7b/fsm_mealy_test.v|

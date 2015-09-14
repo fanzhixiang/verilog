@@ -1,0 +1,15 @@
+/user/DSD/hlchen/CICTRAINING/VERILOG/vloglab/.solution/Lab7b/fsm_mealy_test.v {1 {vlog -work work -vopt /user/DSD/hlchen/CICTRAINING/VERILOG/vloglab/.solution/Lab7b/fsm_mealy_test.v
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module fsm_mealy_test
+
+Top level modules:
+	fsm_mealy_test
+
+} {} {}} /user/DSD/hlchen/CICTRAINING/VERILOG/vloglab/.solution/Lab7b/fsm_mealy.v {1 {vlog -work work -vopt /user/DSD/hlchen/CICTRAINING/VERILOG/vloglab/.solution/Lab7b/fsm_mealy.v
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module fsm_mealy
+
+Top level modules:
+	fsm_mealy
+
+} {} {}}

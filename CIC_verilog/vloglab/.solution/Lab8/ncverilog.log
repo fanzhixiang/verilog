@@ -1,0 +1,136 @@
+ncverilog: 13.10-s005: (c) Copyright 1995-2013 Cadence Design Systems, Inc.
+TOOL:	ncverilog	13.10-s005: Started on Jul 10, 2015 at 11:27:32 CST
+ncverilog
+	testfixture1.v
+	STI.v
+Recompiling... reason: file './STI.v' is newer than expected.
+	expected: Fri Jul 10 11:21:05 2015
+	actual:   Fri Jul 10 11:29:23 2015
+file: STI.v
+	module worklib.STI:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.STI:v <0x36bf39e8>
+			streams:   9, words:  6505
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                  Instances  Unique
+		Modules:                  2       2
+		Registers:               41      41
+		Scalar wires:             8       -
+		Vectored wires:           1       -
+		Always blocks:            5       5
+		Initial blocks:           4       4
+		Cont. assignments:        1       4
+		Pseudo assignments:       1       1
+		Simulation timescale:  10ps
+	Writing initial simulation snapshot: worklib.testfixture1:v
+Loading snapshot worklib.testfixture1:v .................... Done
+*Novas* Loading libsscore_ius111.so
+ncsim> source /usr/cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
+ncsim> run
+ncsim: *W,RMEMAR: $readmem warning: address incremented out of range. Too many data words read
+	at line 1 of file "./dat/Pattern.dat". Current address: 10, address range: [0:9].
+            File: ./testfixture1.v, line = 52, pos = 30
+           Scope: testfixture1
+            Time: 0 FS + 0
+
+--------------------------- Simulation Pattern is ready !!---------------------------
+Novas FSDB Dumper for IUS, Release 2012.04, Linux, 04/10/2012
+Copyright (C) 1996 - 2012 by SpringSoft, Inc.
+***********************************************************************
+*  WARNING -                                                          *
+*  The simulator version is newer than the FSDB dumper version which  *
+*  may cause abnormal behavior. Please contact SpringSoft support at  *
+*  support@springsoft.com for assistance.                             *
+***********************************************************************
+*Novas* : Create FSDB file 'STI.fsdb'
+*Novas* : Begin traversing the scopes, layer (0).
+*Novas* WARNING: [NoReadAccess][FilterOut]Name:testfixture1.pattern_in(48)
+*Novas* WARNING: [NoReadAccess][FilterOut]Name:testfixture1.stimulus_in(48)
+*Novas* WARNING: [NoReadAccess][FilterOut]Name:testfixture1.Exp_so(48)
+*Novas* WARNING: [NoReadAccess][FilterOut]Name:testfixture1.pi_end(48)
+*Novas* WARNING: [NoReadAccess][FilterOut]Name:testfixture1.load(48)
+*Novas* WARNING: [NoReadAccess][FilterOut]Name:testfixture1.reset(48)
+*Novas* WARNING: [NoReadAccess][FilterOut]Name:testfixture1.clk(48)
+*Novas* WARNING: [NoReadAccess][FilterOut]Name:testfixture1.Real_memory(116)
+*Novas* WARNING: [NoReadAccess][FilterOut]Name:testfixture1.k(25)
+*Novas* WARNING: [NoReadAccess][FilterOut]Name:testfixture1.i(25)
+*Novas* WARNING: [NoReadAccess][FilterOut]Name:testfixture1.err_cnt(25)
+*Novas* WARNING: [NoReadAccess][FilterOut]Name:testfixture1.c(25)
+*Novas* WARNING: [NoReadAccess][FilterOut]Name:testfixture1.so_pass(48)
+*Novas* WARNING: [NoReadAccess][FilterOut]Name:testfixture1.Real_so(48)
+*Novas* WARNING: [NoReadAccess][FilterOut]Name:testfixture1.so_exp(48)
+*Novas* WARNING: [NoReadAccess][FilterOut]Name:testfixture1.pi_length(36)
+*Novas* WARNING: [NoReadAccess][FilterOut]Name:testfixture1.msb_first(36)
+*Novas* WARNING: [NoReadAccess][FilterOut]Name:testfixture1.low_en(36)
+*Novas* WARNING: [NoReadAccess][FilterOut]Name:testfixture1.pi_data(36)
+*Novas* WARNING: [NoReadAccess][FilterOut]Name:testfixture1.so_data(36)
+*Novas* WARNING: [NoReadAccess][FilterOut]Name:testfixture1.so_valid(36)
+*Novas* WARNING: [NoReadAccess][FilterOut]Name:testfixture1.u_rtl.so_data(48)
+*Novas* WARNING: [NoReadAccess][FilterOut]Name:testfixture1.u_rtl.so_valid(48)
+*Novas* WARNING: [NoReadAccess][FilterOut]Name:testfixture1.u_rtl.so_data8(48)
+*Novas* WARNING: [NoReadAccess][FilterOut]Name:testfixture1.u_rtl.so_data16(48)
+*Novas* WARNING: [NoReadAccess][FilterOut]Name:testfixture1.u_rtl.msb(48)
+*Novas* WARNING: [NoReadAccess][FilterOut]Name:testfixture1.u_rtl.low(48)
+*Novas* WARNING: [NoReadAccess][FilterOut]Name:testfixture1.u_rtl.tmp_data(48)
+*Novas* WARNING: [NoReadAccess][FilterOut]Name:testfixture1.u_rtl.tmp_data16(48)
+*Novas* WARNING: [NoReadAccess][FilterOut]Name:testfixture1.u_rtl.tmp_data8(48)
+*Novas* WARNING: [NoReadAccess][FilterOut]Name:testfixture1.u_rtl.i(25)
+*Novas* WARNING: [NoReadAccess][FilterOut]Name:testfixture1.u_rtl.pat_all(48)
+*Novas* WARNING: [NoReadAccess][FilterOut]Name:testfixture1.u_rtl.tmp_pi(48)
+*Novas* WARNING: [NoReadAccess][FilterOut]Name:testfixture1.u_rtl.s(25)
+*Novas* WARNING: [NoReadAccess][FilterOut]Name:testfixture1.u_rtl.n_state(48)
+*Novas* WARNING: [NoReadAccess][FilterOut]Name:testfixture1.u_rtl.c_state(48)
+*Novas* WARNING: [NoReadAccess][FilterOut]Name:testfixture1.u_rtl.valid(48)
+*Novas* WARNING: [NoReadAccess][FilterOut]Name:testfixture1.u_rtl.so_valid1(48)
+*Novas* WARNING: [NoReadAccess][FilterOut]Name:testfixture1.u_rtl.clk(36)
+*Novas* WARNING: [NoReadAccess][FilterOut]Name:testfixture1.u_rtl.reset(36)
+*Novas* WARNING: [NoReadAccess][FilterOut]Name:testfixture1.u_rtl.load(36)
+*Novas* WARNING: [NoReadAccess][FilterOut]Name:testfixture1.u_rtl.pi_msb(36)
+*Novas* WARNING: [NoReadAccess][FilterOut]Name:testfixture1.u_rtl.pi_low(36)
+*Novas* WARNING: [NoReadAccess][FilterOut]Name:testfixture1.u_rtl.pi_data(36)
+*Novas* WARNING: [NoReadAccess][FilterOut]Name:testfixture1.u_rtl.rot8.rot8(48)
+*Novas* WARNING: [NoReadAccess][FilterOut]Name:testfixture1.u_rtl.rot8.di8(48)
+*Novas* WARNING: [NoReadAccess][FilterOut]Name:testfixture1.u_rtl.rot8.k(25)
+*Novas* WARNING: [NoReadAccess][FilterOut]Name:testfixture1.u_rtl.rot16.rot16(48)
+*Novas* WARNING: [NoReadAccess][FilterOut]Name:testfixture1.u_rtl.rot16.di16(48)
+*Novas* WARNING: [NoReadAccess][FilterOut]Name:testfixture1.u_rtl.rot16.k(25)
+*Novas* : End of traversing.
+--------------------------- [ testfuxture1.v ] Simulation START !!---------------------------
+--------------------------- Simulation at parallel data input stage !!---------------------------
+Pattern           0 in !
+Pattern           0 done !
+Pattern           1 in !
+Pattern           1 done !
+Pattern           2 in !
+Pattern           2 done !
+Pattern           3 in !
+Pattern           3 done !
+Pattern           4 in !
+Pattern           4 done !
+Pattern           5 in !
+Pattern           5 done !
+Pattern           6 in !
+Pattern           6 done !
+Pattern           7 in !
+Pattern           7 done !
+Pattern           8 in !
+Pattern           8 done !
+Pattern           9 in !
+Pattern           9 done !
+--------------------------- Simulation at serial data output and result verify !! ---------------------------
+--------------------------- so_data simulation FINISH !!---------------------------
+============================================================================
+
+ \(^o^)/  The simulation result of so_data is PASS!!!
+
+============================================================================
+Simulation complete via $finish(1) at time 1856 NS + 0
+./testfixture1.v:132      $finish;
+ncsim> exit
+TOOL:	ncverilog	13.10-s005: Exiting on Jul 10, 2015 at 11:27:33 CST  (total: 00:00:01)

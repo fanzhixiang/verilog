@@ -1,0 +1,162 @@
+ncsim 12.20-s012
+Linux 2.6.18-194.32.1.el5.centos.plus #1 SMP Wed Jan 5 18:13:47 EST 2011 x86_64
+CPU cores: 16
+Limit information:
+======================================
+cputime			unlimited
+filesize		unlimited
+datasize		unlimited
+stacksize		10240 kbytes
+coredumpsize	0 kbytes
+memoryuse		unlimited
+vmemoryuse		unlimited
+descriptors		1024
+memorylocked	32 kbytes
+maxproc			593919
+======================================
+Runtime environment variables:
+DISPLAY=:12610.0
+SUPPORTED=en_US.UTF-8:en_US:en
+HOSTNAME=dsd05.cic.org.tw
+SHELL=/bin/tcsh
+HOST=dsd05.cic.org.tw
+HISTSIZE=1000
+KDE_NO_IPV6=1
+SSH_CLIENT=127.0.0.1 41037 22
+QTDIR=/usr/lib64/qt-3.3
+QTINC=/usr/lib64/qt-3.3/include
+USER=hlchen
+GROUP=DSD
+LS_COLORS=no=00:fi=00:di=00;34:ln=00;36:pi=40;33:so=00;35:bd=40;33;01:cd=40;33;01:or=01;05;37;41:mi=01;05;37;41:ex=00;32:*.cmd=00;32:*.exe=00;32:*.com=00;32:*.btm=00;32:*.bat=00;32:*.sh=00;32:*.csh=00;32:*.tar=00;31:*.tgz=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.zip=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.bz=00;31:*.tz=00;31:*.rpm=00;31:*.cpio=00;31:*.jpg=00;35:*.gif=00;35:*.bmp=00;35:*.xbm=00;35:*.xpm=00;35:*.png=00;35:*.tif=00;35:
+HOSTTYPE=x86_64-linux
+KDEDIR=/usr
+PAGER=more
+NXSESSIONID=dsd05.cic.org.tw-12610-3406490657A72A6CE4D87920617844F7
+PATH=/usr/cad/spring_soft/verdi/cur/bin:/usr/cad/spring_soft/verdi/cur/nLint/bin:/usr/cad/cadence/INCISIV/cur/tools/bin:/usr/cad/cadence/INCISIV/cur/tools/vtools/vfault/bin:/usr/cad/cadence/INCISIV/cur/tools/dfII/bin:/usr/cad/spring_soft/verdi/cur/bin:/usr/cad/spring_soft/verdi/cur/nLint/bin:/usr/cad/cadence/INCISIV/cur/tools/bin:/usr/cad/cadence/INCISIV/cur/tools/vtools/vfault/bin:/usr/cad/cadence/INCISIV/cur/tools/dfII/bin:/usr/lib64/qt-3.3/bin:/usr/kerberos/bin:/usr/local/bin:/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/sbin:/usr/X11R6/bin:/user/DSD/hlchen/bin
+MAIL=/var/spool/mail/hlchen
+SHADOW_XAUTHORITY=/user/DSD/hlchen/.nx/C-dsd05.cic.org.tw-12610-3406490657A72A6CE4D87920617844F7/authority
+INPUTRC=/etc/inputrc
+PWD=/user/DSD/hlchen/CICTRAINING/VERILOG/vloglab/.solution/Lab3a
+KDE_IS_PRELINKED=1
+LANG=en_US.UTF-8
+LM_LICENSE_FILE=26585@lscic:5280@lscic:
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+SLAVE_PID=16967
+HOME=/user/DSD/hlchen
+SHLVL=4
+MANPAGER=less -iRs
+OSTYPE=linux
+VENDOR=unknown
+LOGNAME=hlchen
+MACHTYPE=x86_64
+CVS_RSH=ssh
+QTLIB=/usr/lib64/qt-3.3/lib
+SSH_CONNECTION=127.0.0.1 41037 127.0.0.1 22
+LESSOPEN=|/usr/bin/lesspipe.sh %s
+SHLIB_PATH=/usr/cad/spring_soft/verdi/cur/share/PLI/IUS/LINUX/:/usr/cad/spring_soft/verdi/cur/share/PLI/IUS/LINUX
+G_BROKEN_FILENAMES=1
+_=/usr/bin/ssh-agent
+SSH_AUTH_SOCK=/tmp/ssh-npiGl17572/agent.17572
+SSH_AGENT_PID=17574
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-3zqlgx4l7k,guid=d6b8dfc7c475e0ed30c3b500533a263a
+GTK_RC_FILES=/etc/gtk/gtkrc:/user/DSD/hlchen/.gtkrc-1.2-gnome2
+SESSION_MANAGER=local/dsd05.cic.org.tw:/tmp/.ICE-unix/17572
+GNOME_KEYRING_SOCKET=/tmp/keyring-YdSdUK/socket
+GNOME_DESKTOP_SESSION_ID=Default
+DESKTOP_STARTUP_ID=
+TERM=xterm
+COLORTERM=gnome-terminal
+WINDOWID=35651664
+LD_LIBRARY_PATH=/usr/cad/spring_soft/verdi/cur/share/PLI/IUS/LINUX/:/usr/cad/cadence/INCISIV/cur/tools/lib:/usr/cad/cadence/INCISIV/cur/tools/vtools/vfault/lib::/lib:/lib64:/usr/lib:/usr/lib64:/usr/loacl/lib:/usr/local/lib64
+/user/DSD/hlchen/CICTRAINING/VERILOG/vloglab/.solution/Lab3a/INCA_libs/irun.lnx86.12.20.nc/svpp.ts
+CDS_ARCH=lnx86
+NCRUNMODE=ncverilog:./INCA_libs/irun.lnx86.12.20.nc
+IRUNBATCH=FALSE
+IMPERAS_PORT_FILE=.vsp_ovp_gdb_port
+TCL_LIBRARY=/usr/cad/cadence/INCISIV/cur/tools/inca/files/tcl/library
+Runtime command line arguments:
+argv[0]=ncverilog
+argv[1]=alu_test.v
+argv[2]=alu.v
+81 profile - 100
+          CPU/Mem usage: 0.010 sys,  0.010 user,  44.79M sys,  0.00M vm
+82 VC callback profile - scalar:0 vector:0
+83 Wed Apr  2 10:19:52 2014
+84 pliAppInit
+85 pliAppMiscSet: New Sim Round
+86 LIBSSCORE=found /usr/cad/spring_soft/verdi/cur/share/PLI/IUS/LINUX/libsscore_ius111.so through $LD_LIBRARY_PATH setting.
+87 argv[0]: alu.fsdb
+88 Catch signal 11. Stack trace follows:
+#0  0xffffe410 in __kernel_vsyscall ()
+#1  0x00275b23 in __read_nocancel () from /lib/libc.so.6
+#2  0x00215e48 in _IO_file_read_internal () from /lib/libc.so.6
+#3  0x002171a0 in _IO_new_file_underflow () from /lib/libc.so.6
+#4  0x0021789b in _IO_default_uflow_internal () from /lib/libc.so.6
+#5  0x00218c0d in __uflow () from /lib/libc.so.6
+#6  0x0020c596 in _IO_getline_info_internal () from /lib/libc.so.6
+#7  0x0020c4e1 in _IO_getline_internal () from /lib/libc.so.6
+#8  0x0020b45a in fgets () from /lib/libc.so.6
+#9  0xf728a4d5 in ndpGetCallStack () from /usr/cad/spring_soft/verdi/cur/share/PLI/IUS/LINUX/libsscore_ius111.so
+#10 0xf72b066c in pliAppDbg_SigHandler () from /usr/cad/spring_soft/verdi/cur/share/PLI/IUS/LINUX/libsscore_ius111.so
+#11 0xf728a058 in catchSignalCB () from /usr/cad/spring_soft/verdi/cur/share/PLI/IUS/LINUX/libsscore_ius111.so
+#12 <signal handler called>
+#13 0x0b45e072 in ?? ()
+#14 0x0b45e068 in ?? ()
+#15 0x00000000 in ?? ()
+89 Novas FSDB Dumper for IUS, Release 2012.04, Linux, 04/10/2012
+90 Copyright (C) 1996 - 2012 by SpringSoft, Inc.
+91 ***********************************************************************
+92 *  WARNING -                                                          *
+93 *  The simulator version is newer than the FSDB dumper version which  *
+94 *  may cause abnormal behavior. Please contact SpringSoft support at  *
+95 *  support@springsoft.com for assistance.                             *
+96 ***********************************************************************
+97 sps_call_fsdbDumpfile at 0 : /user/DSD/hlchen/CICTRAINING/VERILOG/vloglab/.solution/Lab3a/alu_test.v(57)
+98 argv[0]: alu.fsdb
+99 *Novas* : Create FSDB file 'alu.fsdb'
+100 sps_call_fsdbDumpvars at 0 : /user/DSD/hlchen/CICTRAINING/VERILOG/vloglab/.solution/Lab3a/alu_test.v(58)
+101 *Novas* : Begin traversing the scopes, layer (0).
+102 *Novas* WARNING: [NoReadAccess][FilterOut]Name:alu_test.i(25)
+103 *Novas* WARNING: [NoReadAccess][FilterOut]Name:alu_test.err_cnt(25)
+104 *Novas* WARNING: [NoReadAccess][FilterOut]Name:alu_test.k(25)
+105 *Novas* WARNING: [NoReadAccess][FilterOut]Name:alu_test.clk(48)
+106 *Novas* WARNING: [NoReadAccess][FilterOut]Name:alu_test.reset(48)
+107 *Novas* WARNING: [NoReadAccess][FilterOut]Name:alu_test.twocomp_accum(36)
+108 *Novas* WARNING: [NoReadAccess][FilterOut]Name:alu_test.cal_accum_data(36)
+109 *Novas* WARNING: [NoReadAccess][FilterOut]Name:alu_test.cnd_accum(36)
+110 *Novas* WARNING: [NoReadAccess][FilterOut]Name:alu_test.abs_accum(36)
+111 *Novas* WARNING: [NoReadAccess][FilterOut]Name:alu_test.alu1.clk(36)
+112 *Novas* WARNING: [NoReadAccess][FilterOut]Name:alu_test.alu1.reset(36)
+113 *Novas* WARNING: [NoReadAccess][FilterOut]Name:alu_test.alu1.accum(36)
+114 *Novas* WARNING: [NoReadAccess][FilterOut]Name:alu_test.alu1.data(36)
+115 *Novas* WARNING: [NoReadAccess][FilterOut]Name:alu_test.alu1.opcode(36)
+116 *Novas* : End of traversing.
+117 fsdbDumpvars traverse var: profile - 
+          CPU/Mem usage: 0.010 sys,  0.020 user,  54.83M sys,  0.00M vm
+                   incr: 0.000 sys,  0.000 user,  2.38M sys,  0.00M vm
+                   accu: 0.000 sys,  0.000 user,  2.38M sys,  0.00M vm
+              accu incr: 0.000 sys,  0.000 user,  2.38M sys,  0.00M vm
+
+          Count usage: 8 var,  7 idcode,  7 callback
+                 incr: 8 var,  7 idcode,  7 callback
+                 accu: 8 var,  7 idcode,  7 callback
+            accu incr: 8 var,  7 idcode,  7 callback
+118 VC callback profile - scalar:0 vector:0
+119 Wed Apr  2 10:19:52 2014
+120 fsdbDumpvars: profile - 
+          CPU/Mem usage: 0.010 sys,  0.020 user,  55.89M sys,  0.00M vm
+                   incr: 0.000 sys,  0.000 user,  1.05M sys,  0.00M vm
+                   accu: 0.000 sys,  0.000 user,  3.44M sys,  0.00M vm
+              accu incr: 0.000 sys,  0.000 user,  1.05M sys,  0.00M vm
+
+          Count usage: 8 var,  7 idcode,  7 callback
+                 incr: 0 var,  0 idcode,  0 callback
+                 accu: 8 var,  7 idcode,  7 callback
+            accu incr: 0 var,  0 idcode,  0 callback
+121 VC callback profile - scalar:1 vector:6
+122 Wed Apr  2 10:19:52 2014
+123 End of simulation at 2255
+124 VC callback profile - scalar:23 vector:695
+125 Wed Apr  2 10:19:52 2014
+126 SimExit
+127 Sim process exit

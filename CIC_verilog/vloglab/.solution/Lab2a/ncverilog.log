@@ -1,0 +1,45 @@
+ncverilog: 08.10-p002: (c) Copyright 1995-2008 Cadence Design Systems, Inc.
+TOOL:	ncverilog	08.10-p002: Started on Jul 27, 2009 at 17:43:25 CST
+ncverilog
+	fa_test.v
+	fa.v
+	ha.v
+	+access+r
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.fa_test:v <0x514df8f0>
+			streams:   7, words:  4476
+	Loading native compiled code:     .................... Done
+	Building instance specific data structures.
+	Design hierarchy summary:
+		                  Instances  Unique
+		Modules:                  4       3
+		Primitives:               5       3
+		Registers:                4       4
+		Scalar wires:             3       -
+		Always blocks:            1       1
+		Initial blocks:           3       3
+		Pseudo assignments:       3       3
+		Simulation timescale:  10ps
+	Writing initial simulation snapshot: worklib.fa_test:v
+Loading snapshot worklib.fa_test:v .................... Done
+ncsim> source /usr/cad/cadence/IUS/cur/tools/inca/files/ncsimrc
+ncsim> run
+Novas FSDB Dumper for Verilog-XL, Release 2008.01 (SOLARIS) 01/29/2008
+Copyright (C) 1996 - 2007 by Novas Software, Inc.
+*Novas* Create FSDB file 'fa.fsdb'
+*Novas* Begin traversing the top scope(fa_test), layer(0).
+*Novas* End of traversing the top scope(fa_test)
+
+
+***********************
+function test pass !!
+***********************
+
+
+Simulation complete via $finish(1) at time 66 NS + 0
+./fa_test.v:83 		$finish;
+ncsim> exit
+TOOL:	ncverilog	08.10-p002: Exiting on Jul 27, 2009 at 17:43:27 CST  (total: 00:00:02)

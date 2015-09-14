@@ -1,0 +1,89 @@
+# //  ModelSim SE 10.1c Jul 27 2012 Linux 2.6.18-164.el5
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading project PP
+# reading /user/cad/mentor/modelsim/10.1c/modeltech/linux/../modelsim.ini
+# Loading project pp
+# Compile of fsm_mealy.v was successful.
+# Compile of fsm_mealy_test.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim work.fsm_mealy_test
+# vsim work.fsm_mealy_test 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.fsm_mealy_test(fast)
+# ** Warning: (vsim-PLI-3003) /user/DSD/hlchen/CICTRAINING/VERILOG/vloglab/.solution/Lab7b/fsm_mealy_test.v(129): [TOFD] - System task or function '$fsdbDumpfile' is not defined.
+#         Region: /fsm_mealy_test
+# ** Warning: (vsim-PLI-3003) /user/DSD/hlchen/CICTRAINING/VERILOG/vloglab/.solution/Lab7b/fsm_mealy_test.v(130): [TOFD] - System task or function '$fsdbDumpvars' is not defined.
+#         Region: /fsm_mealy_test
+add wave -position insertpoint sim:/fsm_mealy_test/*
+# (vish-4014) No objects found matching '/fsm_mealy_test/*'.
+add wave -position insertpoint sim:/fsm_mealy_test/*
+# (vish-4014) No objects found matching '/fsm_mealy_test/*'.
+run -all
+#                    6 reset=1, en=1, xin=0, zout=0
+#                   16 reset=0, en=1, xin=0, zout=1
+#                   26 reset=0, en=1, xin=1, zout=1
+#                   36 reset=0, en=1, xin=0, zout=0
+#                   46 reset=0, en=1, xin=1, zout=0
+#                   56 reset=0, en=1, xin=1, zout=1
+#                   66 reset=0, en=1, xin=1, zout=1
+#                   76 reset=0, en=1, xin=0, zout=0
+#                   86 reset=0, en=1, xin=0, zout=0
+#                   96 reset=0, en=1, xin=1, zout=0
+#                  106 reset=0, en=1, xin=0, zout=1
+#                  116 reset=0, en=0, xin=0, zout=0
+#                  126 reset=0, en=1, xin=0, zout=0
+#                  136 reset=1, en=1, xin=0, zout=0
+#                  141 finish testing without error!!
+# ** Note: $finish    : /user/DSD/hlchen/CICTRAINING/VERILOG/vloglab/.solution/Lab7b/fsm_mealy_test.v(108)
+#    Time: 141 ns  Iteration: 0  Instance: /fsm_mealy_test
+# 1
+# Break at /user/DSD/hlchen/CICTRAINING/VERILOG/vloglab/.solution/Lab7b/fsm_mealy_test.v line 108
+add wave -position insertpoint sim:/fsm_mealy_test/*
+# (vish-4014) No objects found matching '/fsm_mealy_test/*'.
+# No ports found in fsm_mealy_test
+vsim -voptargs=+acc work.fsm_mealy work.fsm_mealy_test
+# vsim -voptargs=+acc work.fsm_mealy work.fsm_mealy_test 
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-143) Recognized 1 FSM in module "fsm_mealy(fast)".
+# Loading work.fsm_mealy(fast)
+# Loading work.fsm_mealy_test(fast)
+# ** Warning: (vsim-PLI-3003) /user/DSD/hlchen/CICTRAINING/VERILOG/vloglab/.solution/Lab7b/fsm_mealy_test.v(129): [TOFD] - System task or function '$fsdbDumpfile' is not defined.
+#         Region: /fsm_mealy_test
+# ** Warning: (vsim-PLI-3003) /user/DSD/hlchen/CICTRAINING/VERILOG/vloglab/.solution/Lab7b/fsm_mealy_test.v(130): [TOFD] - System task or function '$fsdbDumpvars' is not defined.
+#         Region: /fsm_mealy_test
+add wave -position insertpoint sim:/fsm_mealy_test/*
+run -all
+#                    6 reset=1, en=1, xin=0, zout=0
+#                   16 reset=0, en=1, xin=0, zout=1
+#                   26 reset=0, en=1, xin=1, zout=1
+#                   36 reset=0, en=1, xin=0, zout=0
+#                   46 reset=0, en=1, xin=1, zout=0
+#                   56 reset=0, en=1, xin=1, zout=1
+#                   66 reset=0, en=1, xin=1, zout=1
+#                   76 reset=0, en=1, xin=0, zout=0
+#                   86 reset=0, en=1, xin=0, zout=0
+#                   96 reset=0, en=1, xin=1, zout=0
+#                  106 reset=0, en=1, xin=0, zout=1
+#                  116 reset=0, en=0, xin=0, zout=0
+#                  126 reset=0, en=1, xin=0, zout=0
+#                  136 reset=1, en=1, xin=0, zout=0
+#                  141 finish testing without error!!
+# ** Note: $finish    : /user/DSD/hlchen/CICTRAINING/VERILOG/vloglab/.solution/Lab7b/fsm_mealy_test.v(108)
+#    Time: 141 ns  Iteration: 0  Instance: /fsm_mealy_test
+# 1
+# Break in Module fsm_mealy_test at /user/DSD/hlchen/CICTRAINING/VERILOG/vloglab/.solution/Lab7b/fsm_mealy_test.v line 108
+run -all
+#                  146 reset=0, en=1, xin=0, zout=1
+#                  147 Testing failed at cycle           1, the zout should be 0
+# ** Note: $finish    : /user/DSD/hlchen/CICTRAINING/VERILOG/vloglab/.solution/Lab7b/fsm_mealy_test.v(117)
+#    Time: 147 ns  Iteration: 0  Instance: /fsm_mealy_test
+# 1
+# Break in Module fsm_mealy_test at /user/DSD/hlchen/CICTRAINING/VERILOG/vloglab/.solution/Lab7b/fsm_mealy_test.v line 117
+quit

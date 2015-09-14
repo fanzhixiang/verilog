@@ -1,0 +1,53 @@
+ncverilog: 08.20-s024: (c) Copyright 1995-2010 Cadence Design Systems, Inc.
+TOOL:	ncverilog	08.20-s024: Started on Nov 09, 2010 at 11:13:28 CST
+ncverilog
+	mux_test.v
+	mux.v
+	+access+r
+Recompiling... reason: file './mux_test.v' is newer than expected.
+	expected: Tue Nov  9 11:11:19 2010
+	actual:   Tue Nov  9 11:16:13 2010
+file: mux_test.v
+	module worklib.mux_test:v
+		errors: 0, warnings: 0
+file: mux.v
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.mux_test:v <0x17b44331>
+			streams:   7, words:  7127
+	Loading native compiled code:     .................... Done
+	Building instance specific data structures.
+	Design hierarchy summary:
+		             Instances  Unique
+		Modules:             2       2
+		Primitives:          4       3
+		Registers:           3       3
+		Scalar wires:        3       -
+		Initial blocks:      3       3
+		Parallel blocks:     1       1
+		Pseudo assignments:  3       3
+	Writing initial simulation snapshot: worklib.mux_test:v
+Loading snapshot worklib.mux_test:v .................... Done
+ncsim> source /usr/cad/cadence/IUS/cur/tools/inca/files/ncsimrc
+ncsim> run
+                   0  a = x,  b = x,  sel = x,   out = x
+                  10  a = 0,  b = 0,  sel = 0,   out = x
+                  13  a = 0,  b = 0,  sel = 0,   out = 0
+                  20  a = 1,  b = 0,  sel = 1,   out = 0
+                  30  a = 1,  b = 1,  sel = 0,   out = 0
+                  33  a = 1,  b = 1,  sel = 0,   out = 1
+                  40  a = 0,  b = 1,  sel = 1,   out = 1
+                  50  a = 0,  b = 1,  sel = 0,   out = 1
+                  53  a = 0,  b = 1,  sel = 0,   out = 0
+                  60  a = 1,  b = 0,  sel = 0,   out = 0
+                  63  a = 1,  b = 0,  sel = 0,   out = 1
+                  70  a = 0,  b = 0,  sel = 1,   out = 1
+                  73  a = 0,  b = 0,  sel = 1,   out = 0
+                  80  a = 1,  b = 1,  sel = 1,   out = 0
+                  83  a = 1,  b = 1,  sel = 1,   out = 1
+Simulation complete via $finish(1) at time 100 NS + 0
+./mux_test.v:22   	#100 $finish;
+ncsim> exit
+TOOL:	ncverilog	08.20-s024: Exiting on Nov 09, 2010 at 11:13:29 CST  (total: 00:00:01)

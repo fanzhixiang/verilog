@@ -1,0 +1,56 @@
+wvResizeWindow -win $_nWave1 58 262 960 332
+wvSetPosition -win $_nWave1 {("G1" 0)}
+wvOpenFile -win $_nWave1 \
+           {/user/DSD/hlchen/CICTRAINING/VERILOG/vloglab/.solution/Lab3b/FIR.fsdb}
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/FIR_test"
+wvSetPosition -win $_nWave1 {("G1" 5)}
+wvSetPosition -win $_nWave1 {("G1" 5)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/FIR_test/Din\[7:0\]} \
+{/FIR_test/Dout\[17:0\]} \
+{/FIR_test/clk} \
+{/FIR_test/k\[31:0\]} \
+{/FIR_test/reset} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 1 2 3 4 5 )} 
+wvSetPosition -win $_nWave1 {("G1" 5)}
+wvGetSignalClose -win $_nWave1
+wvZoomAll -win $_nWave1
+wvZoom -win $_nWave1 3.756792 90.163001
+wvResizeWindow -win $_nWave1 58 262 960 332
+wvZoom -win $_nWave1 16.570706 54.414614
+wvSelectSignal -win $_nWave1 {( "G1" 2 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 2 )} 
+wvSetRadix -win $_nWave1 -format UDec
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvZoom -win $_nWave1 2170.477268 2184.767975
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvZoomAll -win $_nWave1
+wvZoom -win $_nWave1 159.918881 296.567832
+wvZoom -win $_nWave1 174.061570 243.628308
+wvSelectSignal -win $_nWave1 {( "G1" 2 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 2 )} 
+wvSetRadix -win $_nWave1 -format UDec
+wvSelectSignal -win $_nWave1 {( "G1" 2 )} 
+wvSetRadix -win $_nWave1 -format Hex
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvResizeWindow -win $_nWave1 -4 -1 1274 864
+wvZoom -win $_nWave1 0.386585 63.593258
+wvSelectSignal -win $_nWave1 {( "G1" 2 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 2 )} 
+wvSetRadix -win $_nWave1 -format UDec
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvZoom -win $_nWave1 0.509436 52.413846
+wvExit

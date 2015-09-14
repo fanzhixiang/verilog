@@ -1,0 +1,57 @@
+ncverilog: 10.20-s123: (c) Copyright 1995-2012 Cadence Design Systems, Inc.
+TOOL:	ncverilog	10.20-s123: Started on Dec 17, 2012 at 14:17:07 CST
+ncverilog
+	fsm_mealy_test.v
+	fsm_mealy.v
+	+access+r
+Recompiling... reason: file './fsm_mealy_test.v' is newer than expected.
+	expected: Mon Dec 17 14:20:54 2012
+	actual:   Mon Dec 17 14:25:28 2012
+file: fsm_mealy_test.v
+	module worklib.fsm_mealy_test:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.fsm_mealy_test:v <0x4e977a01>
+			streams:   9, words: 13889
+	Loading native compiled code:     .................... Done
+	Building instance specific data structures.
+	Design hierarchy summary:
+		             Instances  Unique
+		Modules:             2       2
+		Registers:           9       9
+		Scalar wires:        5       -
+		Always blocks:       5       5
+		Initial blocks:      3       3
+		Pseudo assignments:  4       4
+	Writing initial simulation snapshot: worklib.fsm_mealy_test:v
+Loading snapshot worklib.fsm_mealy_test:v .................... Done
+*Novas* Loading libsscore_ius102.so
+ncsim> source /usr/cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
+ncsim> run
+Novas FSDB Dumper for IUS, Release 2012.01, Linux, 01/13/2012
+Copyright (C) 1996 - 2012 by SpringSoft, Inc.
+*Novas* : Create FSDB file 'fsm_mealy.fsdb'
+*Novas* : Begin traversing the scopes, layer (0).
+*Novas* : End of traversing.
+                   6 reset=1, en=1, xin=0, zout=0
+                  16 reset=0, en=1, xin=0, zout=1
+                  26 reset=0, en=1, xin=1, zout=1
+                  36 reset=0, en=1, xin=0, zout=0
+                  46 reset=0, en=1, xin=1, zout=0
+                  56 reset=0, en=1, xin=1, zout=1
+                  66 reset=0, en=1, xin=1, zout=1
+                  76 reset=0, en=1, xin=0, zout=0
+                  86 reset=0, en=1, xin=0, zout=0
+                  96 reset=0, en=1, xin=1, zout=0
+                 106 reset=0, en=1, xin=0, zout=1
+                 116 reset=0, en=0, xin=0, zout=0
+                 126 reset=0, en=1, xin=0, zout=0
+                 136 reset=1, en=1, xin=0, zout=0
+                 141 finish testing without error!!
+Simulation complete via $finish(1) at time 141 NS + 0
+./fsm_mealy_test.v:108 $finish;
+ncsim> exit
+TOOL:	ncverilog	10.20-s123: Exiting on Dec 17, 2012 at 14:17:08 CST  (total: 00:00:01)

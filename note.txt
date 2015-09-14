@@ -1,0 +1,2 @@
+上傳指令
+scp -P 22 -pr ~/GitHub/verilog/CIC_verilog/vloglab m103061608@daisy.ee.nthu.edu.tw:verilog

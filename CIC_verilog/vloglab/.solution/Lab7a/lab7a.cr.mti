@@ -1,0 +1,15 @@
+/user/DSD/hlchen/CICTRAINING/VERILOG/vloglab/.solution/Lab7a/fsm_test.v {1 {vlog -work work -vopt /user/DSD/hlchen/CICTRAINING/VERILOG/vloglab/.solution/Lab7a/fsm_test.v
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module test_fsm
+
+Top level modules:
+	test_fsm
+
+} {} {}} /user/DSD/hlchen/CICTRAINING/VERILOG/vloglab/.solution/Lab7a/fsm_bspd.v {1 {vlog -work work -vopt /user/DSD/hlchen/CICTRAINING/VERILOG/vloglab/.solution/Lab7a/fsm_bspd.v
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module fsm_bspd
+
+Top level modules:
+	fsm_bspd
+
+} {} {}}

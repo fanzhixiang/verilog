@@ -1,0 +1,99 @@
+Command Line: /usr/cad/spring_soft/verdi/2006.04v1/platform/LINUXAMD64/bin/Verdi
+uname(Linux dsd02.cic.org.tw 2.6.18-164.el5 #1 SMP Tue Aug 18 15:51:48 EDT 2009 x86_64)
+License: Failed to check out nWave, version 6.100, rc = -18:
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out nWave, version 6.100, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       nWave
+License: 	Vendor:Host:   lscic3
+License: 	License path:  26585@lscic3
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Debussy, version 6.100, rc = -18:
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Debussy, version 6.100, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Debussy
+License: 	Vendor:Host:   lscic3
+License: 	License path:  26585@lscic3
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Debussy_shared, version 6.100, rc = -18:
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Debussy_shared, version 6.100, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Debussy_shared
+License: 	Vendor:Host:   lscic3
+License: 	License path:  26585@lscic3
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Debussy, version 6.100, rc = -18:
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Debussy, version 6.100, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Debussy
+License: 	Vendor:Host:   lscic3
+License: 	License path:  26585@lscic3
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Debussy_shared, version 6.100, rc = -18:
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Debussy_shared, version 6.100, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Debussy_shared
+License: 	Vendor:Host:   lscic3
+License: 	License path:  26585@lscic3
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out nWave, version 6.100, rc = -18:
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out nWave, version 6.100, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       nWave
+License: 	Vendor:Host:   lscic3
+License: 	License path:  26585@lscic3
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Debussy, version 6.100, rc = -18:
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Debussy, version 6.100, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Debussy
+License: 	Vendor:Host:   lscic3
+License: 	License path:  26585@lscic3
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Debussy_shared, version 6.100, rc = -18:
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Debussy_shared, version 6.100, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Debussy_shared
+License: 	Vendor:Host:   lscic3
+License: 	License path:  26585@lscic3
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+au time 7235 0.586911 0.452931 delta 23207808 23056384 total 23912448 23912448

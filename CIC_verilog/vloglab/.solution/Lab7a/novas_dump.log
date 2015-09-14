@@ -1,0 +1,145 @@
+ncsim 10.20-s123
+Linux 2.6.18-164.el5 #1 SMP Tue Aug 18 15:51:48 EDT 2009 x86_64
+CPU cores: 16
+Limit information:
+======================================
+cputime			unlimited
+filesize		unlimited
+datasize		unlimited
+stacksize		10240 kbytes
+coredumpsize	0 kbytes
+memoryuse		unlimited
+vmemoryuse		unlimited
+descriptors		1024
+memorylocked	32 kbytes
+maxproc			593919
+======================================
+Runtime environment variables:
+SSH_AGENT_PID=23179
+SUPPORTED=en_US.UTF-8:en_US:en
+HOSTNAME=dsd03.cic.org.tw
+HOST=dsd03.cic.org.tw
+SHELL=/bin/tcsh
+HISTSIZE=1000
+SSH_CLIENT=127.0.0.1 60035 22
+KDE_NO_IPV6=1
+GS_LIB=/user/DSD/hlchen/.fonts
+QTDIR=/usr/lib64/qt-3.3
+QTINC=/usr/lib64/qt-3.3/include
+KDE_FULL_SESSION=true
+GROUP=DSD
+USER=hlchen
+LS_COLORS=no=00:fi=00:di=00;34:ln=00;36:pi=40;33:so=00;35:bd=40;33;01:cd=40;33;01:or=01;05;37;41:mi=01;05;37;41:ex=00;32:*.cmd=00;32:*.exe=00;32:*.com=00;32:*.btm=00;32:*.bat=00;32:*.sh=00;32:*.csh=00;32:*.tar=00;31:*.tgz=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.zip=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.bz=00;31:*.tz=00;31:*.rpm=00;31:*.cpio=00;31:*.jpg=00;35:*.gif=00;35:*.bmp=00;35:*.xbm=00;35:*.xpm=00;35:*.png=00;35:*.tif=00;35:
+SSH_AUTH_SOCK=/tmp/ssh-CKiLv23177/agent.23177
+HOSTTYPE=x86_64-linux
+KDEDIR=/usr
+XDG_CONFIG_DIRS=/etc/kde/xdg:/etc/xdg
+MAIL=/var/spool/mail/hlchen
+PATH=/usr/cad/mentor/modelsim/cur/modeltech/bin:/usr/cad/spring_soft/verdi/cur/bin:/usr/cad/spring_soft/verdi/cur/nLint/bin:/usr/cad/cadence/INCISIV/cur/tools/bin:/usr/cad/cadence/INCISIV/cur/tools/vtools/vfault/bin:/usr/cad/cadence/INCISIV/cur/tools/dfII/bin:/usr/lib64/qt-3.3/bin:/usr/kerberos/bin:/usr/local/bin:/bin:/usr/bin:/user/DSD/hlchen/bin
+NXSESSIONID=dsd03.cic.org.tw-22405-7C970B4712B647CC5B51D9D3DD44BE64
+SHADOW_XAUTHORITY=/user/DSD/hlchen/.nx/C-dsd03.cic.org.tw-22405-7C970B4712B647CC5B51D9D3DD44BE64/authority
+PWD=/user/DSD/hlchen/CICTRAINING/VERILOG/vloglab/.solution/Lab7a
+INPUTRC=/etc/inputrc
+LANG=en_US.UTF-8
+KDE_IS_PRELINKED=1
+SLAVE_PID=22577
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+SHLVL=5
+HOME=/user/DSD/hlchen
+OSTYPE=linux
+VENDOR=unknown
+MACHTYPE=x86_64
+LOGNAME=hlchen
+QTLIB=/usr/lib64/qt-3.3/lib
+CVS_RSH=ssh
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-z9SwNtVUJ3,guid=0bc0d640f4b775ee881e550050ce7664
+SSH_CONNECTION=127.0.0.1 60035 127.0.0.1 22
+LESSOPEN=|/usr/bin/lesspipe.sh %s
+DISPLAY=:22405
+G_BROKEN_FILENAMES=1
+_=/usr/bin/kdeinit
+KDE_MULTIHEAD=false
+SESSION_MANAGER=local/dsd03.cic.org.tw:/tmp/.ICE-unix/23246
+COLORTERM=
+KONSOLE_DCOP=DCOPRef(konsole-23292,konsole)
+KONSOLE_DCOP_SESSION=DCOPRef(konsole-23292,session-1)
+TERM=xterm
+WINDOWID=4194311
+LD_LIBRARY_PATH=/usr/cad/spring_soft/verdi/cur/share/PLI/IUS/LINUX/:/usr/cad/cadence/INCISIV/cur/tools/lib:/usr/cad/cadence/INCISIV/cur/tools/vtools/vfault/lib::/lib:/lib64:/usr/lib:/usr/lib64:/usr/loacl/lib:/usr/local/lib64
+LM_LICENSE_FILE=1717@lscic3:5219@lscic:5280@lscic:
+SHLIB_PATH=/usr/cad/spring_soft/verdi/cur/share/PLI/IUS/LINUX
+MGC_HOME=/usr/cad/mentor/modelsim/cur/modeltech
+MGC_TMPDIR=/tmp
+MGC_LOCATION_MAP=NO_MAP
+/user/DSD/hlchen/CICTRAINING/VERILOG/vloglab/.solution/Lab7a/INCA_libs/irun.lnx86.10.20.nc/svpp.ts
+CDS_ARCH=lnx86
+NCRUNMODE=ncverilog:./INCA_libs/irun.lnx86.10.20.nc
+IRUNBATCH=FALSE
+TCL_LIBRARY=/usr/cad/cadence/INCISIV/cur/tools/inca/files/tcl/library
+Runtime command line arguments:
+argv[0]=ncverilog
+argv[1]=fsm_test.v
+argv[2]=fsm_bspd.v
+argv[3]=+access+r
+84 profile - 100
+          CPU/Mem usage: 0.090 sys,  0.030 user,  43.06M sys,  0.00M vm
+85 VC callback profile - scalar:0 vector:0
+86 Mon Dec 17 16:43:20 2012
+87 pliAppInit
+88 pliAppMiscSet: New Sim Round
+89 LIBSSCORE=found /usr/cad/spring_soft/verdi/cur/share/PLI/IUS/LINUX/libsscore_ius102.so through $LD_LIBRARY_PATH setting.
+90 argv[0]: fsm.fsdb
+91 Catch signal 11. Stack trace follows:
+#0  0xffffe410 in __kernel_vsyscall ()
+#1  0x00c5ffe3 in __read_nocancel () from /lib/libc.so.6
+#2  0x00bfff68 in _IO_file_read_internal () from /lib/libc.so.6
+#3  0x00c012c0 in _IO_new_file_underflow () from /lib/libc.so.6
+#4  0x00c019bb in _IO_default_uflow_internal () from /lib/libc.so.6
+#5  0x00c02d2d in __uflow () from /lib/libc.so.6
+#6  0x00bf66b6 in _IO_getline_info_internal () from /lib/libc.so.6
+#7  0x00bf6601 in _IO_getline_internal () from /lib/libc.so.6
+#8  0x00bf557a in fgets () from /lib/libc.so.6
+#9  0xf7212951 in ndpGetCallStack ()
+#10 0xf7238784 in pliAppDbg_SigHandler ()
+#11 0xf72124d4 in catchSignalCB ()
+#12 <signal handler called>
+#13 0x0a483c0a in ?? ()
+#14 0x0a483c00 in ?? ()
+#15 0x00000000 in ?? ()
+92 Novas FSDB Dumper for IUS, Release 2012.01, Linux, 01/13/2012
+93 Copyright (C) 1996 - 2012 by SpringSoft, Inc.
+94 sps_call_fsdbDumpfile at 0 : /user/DSD/hlchen/CICTRAINING/VERILOG/vloglab/.solution/Lab7a/fsm_test.v(120)
+95 argv[0]: fsm.fsdb
+96 *Novas* : Create FSDB file 'fsm.fsdb'
+97 sps_call_fsdbDumpvars at 0 : /user/DSD/hlchen/CICTRAINING/VERILOG/vloglab/.solution/Lab7a/fsm_test.v(121)
+98 *Novas* : Begin traversing the scopes, layer (0).
+99 *Novas* : End of traversing.
+100 fsdbDumpvars traverse var: profile - 
+          CPU/Mem usage: 0.110 sys,  0.030 user,  48.51M sys,  0.00M vm
+                   incr: 0.000 sys,  0.000 user,  2.29M sys,  0.00M vm
+                   accu: 0.000 sys,  0.000 user,  2.29M sys,  0.00M vm
+              accu incr: 0.000 sys,  0.000 user,  2.29M sys,  0.00M vm
+
+          Count usage: 17 var,  17 idcode,  17 callback
+                 incr: 17 var,  17 idcode,  17 callback
+                 accu: 17 var,  17 idcode,  17 callback
+            accu incr: 17 var,  17 idcode,  17 callback
+101 VC callback profile - scalar:0 vector:0
+102 Mon Dec 17 16:43:20 2012
+103 fsdbDumpvars: profile - 
+          CPU/Mem usage: 0.110 sys,  0.030 user,  49.56M sys,  0.00M vm
+                   incr: 0.000 sys,  0.000 user,  1.05M sys,  0.00M vm
+                   accu: 0.000 sys,  0.000 user,  3.35M sys,  0.00M vm
+              accu incr: 0.000 sys,  0.000 user,  1.05M sys,  0.00M vm
+
+          Count usage: 17 var,  17 idcode,  17 callback
+                 incr: 0 var,  0 idcode,  0 callback
+                 accu: 17 var,  17 idcode,  17 callback
+            accu incr: 0 var,  0 idcode,  0 callback
+104 VC callback profile - scalar:10 vector:7
+105 Mon Dec 17 16:43:20 2012
+106 End of simulation at 401300
+107 VC callback profile - scalar:2067 vector:1581
+108 Mon Dec 17 16:43:20 2012
+109 SimExit
+110 Sim process exit

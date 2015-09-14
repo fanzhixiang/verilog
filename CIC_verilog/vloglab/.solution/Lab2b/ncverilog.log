@@ -1,0 +1,79 @@
+ncverilog: 10.20-s123: (c) Copyright 1995-2012 Cadence Design Systems, Inc.
+TOOL:	ncverilog	10.20-s123: Started on Dec 17, 2012 at 09:34:47 CST
+ncverilog
+	rca16_test.v
+	rca16.v
+Loading snapshot worklib.rca16_test:v .................... Done
+ncsim> source /usr/cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
+ncsim> run
+=== Testing Start ===
+                  30 a=    0, b=    0, c_in=0
+                  30 Expected Result : sum=0, c_out=0 
+                  30 Real Result : sum=    0, c_out=0 
+                  30 Pattern Passed!!
+                  30 ================================= 
+                  70 a=    0, b=    0, c_in=1
+                  70 Expected Result : sum=1, c_out=0 
+                  70 Real Result : sum=    1, c_out=0 
+                  70 Pattern Passed!!
+                  70 ================================= 
+                 110 a=    0, b=65535, c_in=0
+                 110 Expected Result : sum=16'hffff, c_out=0 
+                 110 Real Result : sum=65535, c_out=0 
+                 110 Pattern Passed!!
+                 110 ================================= 
+                 150 a=    0, b=65535, c_in=1
+                 150 Expected Result : sum=0, c_out=1 
+                 150 Real Result : sum=    0, c_out=1 
+                 150 Pattern Passed!!
+                 150 ================================= 
+                 190 a=65535, b=    0, c_in=0
+                 190 Expected Result : sum=16'hffff, c_out=0 
+                 190 Real Result : sum=65535, c_out=0 
+                 190 Pattern Passed!!
+                 190 ================================= 
+                 230 a=65535, b=    0, c_in=1
+                 230 Expected Result : sum=0, c_out=1 
+                 230 Real Result : sum=    0, c_out=1 
+                 230 Pattern Passed!!
+                 230 ================================= 
+                 270 a=65535, b=65535, c_in=0
+                 270 Expected Result : sum=16'hfffe, c_out=1 
+                 270 Real Result : sum=65534, c_out=1 
+                 270 Pattern Passed!!
+                 270 ================================= 
+                 310 a=65535, b=65535, c_in=1
+                 310 Expected Result : sum=16'hffff, c_out=1 
+                 310 Real Result : sum=65535, c_out=1 
+                 310 Pattern Passed!!
+                 310 ================================= 
+                 350 a=   11, b=    9, c_in=0
+                 350 Expected Result : sum=20, c_out=0 
+                 350 Real Result : sum=   20, c_out=0 
+                 350 Pattern Passed!!
+                 350 ================================= 
+                 390 a=   63, b=   88, c_in=1
+                 390 Expected Result : sum=152, c_out=0 
+                 390 Real Result : sum=  152, c_out=0 
+                 390 Pattern Passed!!
+                 390 ================================= 
+                 430 a= 1536, b= 2857, c_in=1
+                 430 Expected Result : sum=4394, c_out=0 
+                 430 Real Result : sum= 4394, c_out=0 
+                 430 Pattern Passed!!
+                 430 ================================= 
+                 470 a=17289, b=40398, c_in=0
+                 470 Expected Result : sum=57687, c_out=0 
+                 470 Real Result : sum=57687, c_out=0 
+                 470 Pattern Passed!!
+                 470 ================================= 
+                 510 a=29289, b=50398, c_in=1
+                 510 Expected Result : sum=14152, c_out=0 
+                 510 Real Result : sum=14152, c_out=1 
+                 510 Pattern Passed!!
+                 510 ================================= 
+                 530 Testing finished!!
+Simulation complete via $finish(1) at time 530 NS + 0
+./rca16_test.v:140 	$finish;
+ncsim> exit
+TOOL:	ncverilog	10.20-s123: Exiting on Dec 17, 2012 at 09:34:47 CST  (total: 00:00:00)
