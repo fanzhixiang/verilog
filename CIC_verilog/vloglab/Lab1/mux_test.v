@@ -1,4 +1,4 @@
-module mux_test;
+Xmodule mux_test;
 
 // Signal declaration
 	reg a, b, sel;
